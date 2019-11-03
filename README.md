@@ -24,3 +24,5 @@ Button's numbers
 9 - forward 
 ```
 Use **xev** tool to figure out the number of each button on your mouse.
+
+And restart Service or PC
