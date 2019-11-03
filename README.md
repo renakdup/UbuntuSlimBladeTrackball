@@ -17,9 +17,10 @@ Option "ButtonMapping" "1 8 3 4 5 6 7 9"
 EndSection
 ```
 
-// Button's numbers
-// 2 - middle-click
-// 8 - backward
-// 9 - forward 
-
+Button's numbers
+```
+2 - middle-click
+8 - backward
+9 - forward 
+```
 Use **xev** tool to figure out the number of each button on your mouse.
