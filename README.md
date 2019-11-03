@@ -26,3 +26,12 @@ Button's numbers
 Use **xev** tool to figure out the number of each button on your mouse.
 
 And restart Service or PC
+
+### For changing scroll speed
+```
+sudo apt install imwheel
+cd /etc/X11/imwhell
+sudo vim imwheelrc
+imwheel --kill --buttons "4 5"
+```
+
