@@ -1,4 +1,4 @@
-# Configure SlimBlade Trackball Buttons for Ubuntu
+# Configure Kensington SlimBlade Trackball Buttons for Ubuntu
 
 Add following lines to the file: **/usr/share/X11/xorg.conf.d/10-evdev.conf.**
 
