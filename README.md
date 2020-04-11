@@ -1,4 +1,4 @@
-# Configure Kensington SlimBlade Trackball Buttons for Ubuntu
+# Настройка кнопок трекбола Kensington SlimBlade Trackball для Ubuntu
 
 1. 
 Ввести в консоль xinput для определения id устройства
