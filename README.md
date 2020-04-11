@@ -1,15 +1,15 @@
 # Configure Kensington SlimBlade Trackball Buttons for Ubuntu
 
-1. Ввести в консоль xinput для определения id устройства
-2. xinput test ID для определения номера клавиш
-3. xinput get-button-map ID - получаем карту клавиш
-4. xinput --set-button-map ID 1 8 3 4 5 6 7
+1. 
+Ввести в консоль xinput для определения id устройства
+xinput test ID для определения номера клавиш
+xinput get-button-map ID - получаем карту клавиш
+xinput --set-button-map ID 1 8 3 4 5 6 7 2 - применяет карту клавиш, действует на сеанс до перезагрузки
 
+2.
+Создаем файл по адреса **/usr/share/X11/xorg.conf.d/10-evdev.conf**
 
-Устаревшая дока, возможно пригодится..
-
-Add following lines to the file: **/usr/share/X11/xorg.conf.d/10-evdev.conf.**
-
+3. Добавляем в файл
 ```
 # Kensington Slimblade Settings
 
@@ -20,7 +20,7 @@ MatchIsPointer "on"
 MatchDevicePath "/dev/input/event*"
 Driver "evdev"
 
-Option "ButtonMapping" "1 8 3 4 5 6 7 9"
+Option "ButtonMapping" "1 8 3 4 5 6 7 2"
 
 EndSection
 ```
